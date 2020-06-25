@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+div.sm-jumbotron {
+    margin: 10px;
+    padding: 2px;
+    background-color: rgb(13, 65, 85);
+    color: rgb(177, 173, 173);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+}
+button.btn-submit{
+    background-color: darkgreen;
+    color: #fff;
+    width: 100%;
+}
+button.btn-submit:focus,button.btn-submit:hover{
+    background-color: darkslategray;
+}
+div.validation-error{
+    color: red;
+}
